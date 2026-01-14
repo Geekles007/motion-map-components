@@ -1,8 +1,9 @@
 import { render } from '@testing-library/react'
-import { describe, it, expect, vi } from 'vitest'
 import L from 'leaflet'
-import { TileLayer } from './TileLayer'
+import { describe, expect, it } from 'vitest'
 import { MapContainer } from '../MapContainer'
+import { TileLayer } from './TileLayer'
+import React from 'react'
 
 describe('TileLayer', () => {
   it('creates a tile layer with the correct URL', () => {

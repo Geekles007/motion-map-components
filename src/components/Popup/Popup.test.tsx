@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react'
-import { describe, it, expect } from 'vitest'
-import { Popup } from './Popup'
+import { render } from '@testing-library/react'
+import { describe, expect, it } from 'vitest'
 import { MapContainer } from '../MapContainer'
 import { Marker } from '../Marker'
+import { Popup } from './Popup'
+import React from 'react'
 
 describe('Popup', () => {
   it('renders children content', () => {
