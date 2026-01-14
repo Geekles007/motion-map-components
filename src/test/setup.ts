@@ -50,6 +50,9 @@ vi.mock('leaflet', () => ({
     geoJSON: vi.fn(() => mockGeoJSON),
     Icon: {
       Default: {
+        prototype: {
+          _getIconUrl: vi.fn(),
+        },
         mergeOptions: vi.fn(),
       },
     },
