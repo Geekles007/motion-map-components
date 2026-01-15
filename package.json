@@ -1,16 +1,16 @@
 {
-  "name": "@geekles/react-map-components",
+  "name": "motion-map-components",
   "version": "0.1.0",
   "description": "Modern React components for interactive maps with Leaflet",
   "author": "Geekles",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Geekles007/react-map-components"
+    "url": "https://github.com/Geekles007/motion-map-components"
   },
-  "homepage": "https://github.com/Geekles007/react-map-components#readme",
+  "homepage": "https://github.com/Geekles007/motion-map-components#readme",
   "bugs": {
-    "url": "https://github.com/Geekles007/react-map-components/issues"
+    "url": "https://github.com/Geekles007/motion-map-components/issues"
   },
   "keywords": [
     "react",
